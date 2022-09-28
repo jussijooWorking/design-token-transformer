@@ -1,4 +1,23 @@
 {
+  "spacing": {
+    "spacing": {
+      "20": {
+        "description": null,
+        "type": "custom-spacing",
+        "value": {
+          "top": 20,
+          "bottom": 20,
+          "left": 20,
+          "right": 20
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "exportKey": "spacing"
+          }
+        }
+      }
+    }
+  },
   "color": {
     "color": {
       "colors": {
@@ -17,7 +36,7 @@
         "groon": {
           "description": "Highlight color",
           "type": "color",
-          "value": "#16e1b0ff",
+          "value": "#25d1a8ff",
           "blendMode": "normal",
           "extensions": {
             "org.lukasoppermann.figmaDesignTokens": {
@@ -35,14 +54,14 @@
         "heading1": {
           "type": "custom-fontStyle",
           "value": {
-            "fontSize": 32,
+            "fontSize": 48,
             "textDecoration": "none",
             "fontFamily": "Roboto",
             "fontWeight": 300,
             "fontStyle": "normal",
             "fontStretch": "normal",
             "letterSpacing": 0,
-            "lineHeight": 38.4,
+            "lineHeight": 57.6,
             "paragraphIndent": 0,
             "paragraphSpacing": 0,
             "textCase": "none"
@@ -85,7 +104,7 @@
         "heading1": {
           "fontSize": {
             "type": "dimension",
-            "value": 32
+            "value": 48
           },
           "textDecoration": {
             "type": "string",
@@ -113,7 +132,7 @@
           },
           "lineHeight": {
             "type": "dimension",
-            "value": 38.4
+            "value": 57.6
           },
           "paragraphIndent": {
             "type": "dimension",
